@@ -1,4 +1,4 @@
 name: Hasan Alkhairo
 markdown: kramdown
 
-theme: minimal-mistakes-jekyll 
+theme: jekyll-theme-cayman 
