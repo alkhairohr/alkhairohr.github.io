@@ -7,43 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-      <style>
-		       {
-		    list-style: none;
-		    font-weight: bold;
-		    margin-bottom: 10px;
-		    width: 100%;
-		    text-align: center;
-		    background-color: #000000;
-		    height:38px;
+     <style>
+		ul {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  width: 100%;
+		  overflow: hidden;
+		  background-color: #333;
 		}
 
-		#nav ul {
-		    list-style-type: none;
-		    margin: 0px;
-		    padding: 0;
-		    width: 100%;
+		li {
+		  float: left;
 		}
 
-		#nav li {
-		    margin: 0px;
-		    display:
+		li a {
+		  display: block;
+		  color: white;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
 		}
 
-		#nav li a {
-		    padding: 10px;
-		    text-decoration: none;
-		    font-weight: bold;
-		    color: #FFFFFF;
-		    background-color: #000000;
-		    float: left
+		li a:hover {
+		  background-color: #111;
 		}
-
-		#nav li a:hover {
-		    color: #FFFFFF;
-		    background-color: #35af3b;
+		.active {
+  		   background-color: #4CAF50;
 		}
-      </style>
+	</style>
   </head>
   <body>
     <section class="page-header">
