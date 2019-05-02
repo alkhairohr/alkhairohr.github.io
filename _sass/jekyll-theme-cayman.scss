@@ -109,8 +109,14 @@ a {
 }
 
 .page-header2 {
-  text-align: center;
-  background: url(../imgs/dna_stock.png);
+ 
+  background-image: url("../imgs/dna_stock.png");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   
 
   @include large {
