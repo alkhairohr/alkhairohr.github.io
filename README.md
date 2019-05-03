@@ -1,2 +1,1 @@
 # alkhaiorhr.github.io
-#g
